@@ -81,7 +81,7 @@ faceNorth();
      */
     public void meander() {
 pick();
-  which (!isNet(AHEAD)) {
+  while (!isNet(AHEAD)) {
     if (isFlower(AHEAD)) {
       hop();
       pick();
