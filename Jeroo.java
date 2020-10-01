@@ -86,7 +86,8 @@ pick();
       hop();
       pick();
       }
-      if (isFlower(AHEAD)) {
+      // Aronson:  Should be isFlower(RIGHT)
+      if (isFlower(RIGHT)) {
         turn(RIGHT);
         hop();
         pick();
